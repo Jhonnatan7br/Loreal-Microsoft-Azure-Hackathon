@@ -108,6 +108,17 @@
   gap: 20px; /* This will create some space between the items */
 }
 
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.grid-item img {
+  animation: float 6s ease-in-out infinite;
+}
 
 
 .rounded-button {

@@ -17,7 +17,7 @@ import { uploadToAzure, analyzeWithAzure2 } from './Azure';
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [jsonResponse, setJsonResponse] = useState(null);
-  const [textResponse, setTextResponse] = useState('List of posible products');
+  const [textResponse, setTextResponse] = useState('List of posible products for you');
 
   const handleFileUpload = event => {
     setSelectedFile(event.target.files[0]);
@@ -74,7 +74,7 @@ function App() {
           <a href="https://www.lorealprofessionnel.fr/coloration/semi-permanent" className="rounded-button" target="_blank" rel="noopener noreferrer">
           <img src={Filter1} alt="Filter1" />
           </a>
-          <a href="https://www.lorealprofessionnel.fr/#" className="rounded-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/watch?v=Enralxu2_lY" className="rounded-button" target="_blank" rel="noopener noreferrer">
           <img src={Filter2} alt="Filter2" />
           </a>
         </div>
