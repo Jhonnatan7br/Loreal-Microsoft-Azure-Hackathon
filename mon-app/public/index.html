@@ -24,9 +24,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Loreal Braindstorm</title>
   </head>
-  <body>
+  <body style="background-color: #190020;"></body>>
+    <!--
+    Create objects for buttons
+    -->
+    
+    <input type="file" onChange={handleFileUpload} />Upload Photo
+    <button onClick={uploadPhotoToAzure}>Analyze photo with AI</button>
+    <button onClick={sendJsonToAzure2} disabled={!jsonResponse}>Analyze posible stylish</button>
+    <div className="result-box">We recommend this hairstyling that includes haricare and coloring for you</div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +47,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
   </body>
+  
 </html>

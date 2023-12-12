@@ -1,13 +1,16 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0px; /* Add margin to the body */
+  font-family: 'Pacifico', cursive, sans-serif; /* Change font family to something more artistic */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border: 10px solid #190020;
+  color: #FF33CC; /* Change font color to neon */
+  text-shadow: 0 0 10px #fff533;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  color: #ff33cc;
+  text-shadow: 0 0 10px #ff33ccd7;
 }
