@@ -1,5 +1,8 @@
 import logo from './Brandstorm.png';
 import hairImage from './Hair.png'; // Import the image here
+import F1 from './F1.png';
+import F2 from './F2.png';
+import Page from './Page.png';
 
 import './App.css';
 import './Azure.js';
@@ -38,7 +41,31 @@ function App() {
         Look at this incredible recommendation for your Hair
         </div>
         <div className="result-box">{textResponse}</div>
-        <img src={hairImage} alt="Hair" /> {/* Add the image here */}
+        
+        {/* Horizontal grid container */}
+        <div className="horizontal-grid-container">
+          {/* Left image */}
+          <div className="grid-item">
+            <img src={F1} alt="Hair" />
+          </div>
+
+          {/* Middle image (main content) */}
+          <div className="grid-item main-image">
+            <img src={hairImage} alt="Hair" />
+          </div>
+
+          {/* Right image */}
+          <div className="grid-item">
+            <img src={F2} alt="Hair" />
+          </div>
+        </div>
+        {/* Transparent frame containing the button */}
+        <div style={{ background: 'transparent', border: '1px solid transparent', borderRadius: '5px', padding: '5px', display: 'inline-block' }}>
+          {/* Rounded border button with image */}
+          <a href="https://www.lorealprofessionnel.fr/#" className="rounded-button" target="_blank" rel="noopener noreferrer" >
+            <img src={Page} alt="Page" />
+          </a>
+        </div>
         <a
           className="App-link"
           href="https://brandstorm.loreal.com/es"

@@ -84,7 +84,7 @@
   display: inline-block;
   background: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #00ff00, #00e5ff, #ff0077, #ff93ff);
   background-size: 150% 150%;
-  animation: rainbowText 5s linear infinite;
+  animation: rainbowText 10s linear infinite;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   -webkit-background-clip: text; /* Clip the text to the background gradient */
   color: transparent; /* Make the text transparent to show the gradient */
@@ -99,7 +99,39 @@
   }
 }
 
+/* Styles for the horizontal grid container */
+.horizontal-grid-container {
+  display: flex; /* This will create a horizontal layout */
+  justify-content: center; /* This will center the items horizontally */
+  align-items: center; /* This will center the items vertically */
+  gap: 20px; /* This will create some space between the items */
+}
 
+
+
+.rounded-button {
+  display: inline-block; /* Makes the link behave like a block, enabling width and height */
+  border: 2px solid #ffffff; /* Replace with the desired border color */
+  border-radius: 20px; /* Adjust for the desired roundness of the corners */
+  padding: 10px; /* Adjust the space between the border and the image */
+  transition: transform 0.7s ease; /* Optional: for a smooth click effect */
+  text-align: center; /* Center the image inside the button */
+}
+
+.large-rounded-button img {
+  padding: 10px 25px; /* Larger padding to increase size */
+  font-size: 1rem; /* Larger font size if you want */
+  /* Add other styles as needed */
+  display: block; /* Removes bottom space/margin under the image */
+  max-width: 80px; /* Adjust as needed for your image size */
+  max-height: 80px; /* Adjust as needed for your image size */
+  width: auto; /* Maintain the image's aspect ratio */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+.rounded-button:hover {
+  transform: scale(0.75); /* Optional: for a hover effect to slightly enlarge the button */
+}
 
 /* Ensure the result box is not too wide on larger screens */
 @media (min-width: 768px) {

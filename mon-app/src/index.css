@@ -1,6 +1,7 @@
 body {
   margin: 0px; /* Add margin to the body */
-  font-family: 'Pacifico', cursive, sans-serif; /* Change font family to something more artistic */
+  font-family: 'Bungee', cursive, sans-serif; /* Change font family to something more artistic */
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   border: 10px solid #190020;
@@ -9,8 +10,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Fira Code', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-weight: bold;
   color: #ff33cc;
   text-shadow: 0 0 10px #ff33ccd7;
 }
