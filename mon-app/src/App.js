@@ -3,6 +3,9 @@ import hairImage from './Hair.png'; // Import the image here
 import F1 from './F1.png';
 import F2 from './F2.png';
 import Page from './Page.png';
+import Filter1 from './Filter1.png';
+import Filter2 from './Filter2.png';
+
 
 import './App.css';
 import './Azure.js';
@@ -14,7 +17,7 @@ import { uploadToAzure, analyzeWithAzure2 } from './Azure';
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [jsonResponse, setJsonResponse] = useState(null);
-  const [textResponse, setTextResponse] = useState('');
+  const [textResponse, setTextResponse] = useState('List of posible products');
 
   const handleFileUpload = event => {
     setSelectedFile(event.target.files[0]);
@@ -59,11 +62,20 @@ function App() {
             <img src={F2} alt="Hair" />
           </div>
         </div>
+        <div className="rainbow-text">
+        The recomendated products for you would appear below, also you can try filters 
+        </div>
         {/* Transparent frame containing the button */}
         <div style={{ background: 'transparent', border: '1px solid transparent', borderRadius: '5px', padding: '5px', display: 'inline-block' }}>
           {/* Rounded border button with image */}
-          <a href="https://www.lorealprofessionnel.fr/#" className="rounded-button" target="_blank" rel="noopener noreferrer" >
+          <a href="https://www.lorealprofessionnel.fr/soin-du-cheveu/nouveaut%C3%A9" className="rounded-button" target="_blank" rel="noopener noreferrer" >
             <img src={Page} alt="Page" />
+          </a>
+          <a href="https://www.lorealprofessionnel.fr/coloration/semi-permanent" className="rounded-button" target="_blank" rel="noopener noreferrer">
+          <img src={Filter1} alt="Filter1" />
+          </a>
+          <a href="https://www.lorealprofessionnel.fr/#" className="rounded-button" target="_blank" rel="noopener noreferrer">
+          <img src={Filter2} alt="Filter2" />
           </a>
         </div>
         <a
@@ -72,7 +84,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Loreal Braindstorm information
+          <div className="rainbow-text">
+          Loreal Brandstorm
+          </div>
         </a>
       </header>
       <input type="file" onChange={handleFileUpload} />

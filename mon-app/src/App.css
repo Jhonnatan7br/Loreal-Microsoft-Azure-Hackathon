@@ -56,8 +56,8 @@
 
 .result-box {
   margin-top: 20px;
-  padding: 20px;
-  width: 50%;
+  padding: 40px;
+  width: 70%;
   min-height: 50px;
   color: white;
   word-wrap: break-word;
@@ -65,7 +65,7 @@
   justify-content: center;
   align-items: center;
   animation: rainbow 5s linear infinite;
-  background: linear-gradient(60deg, #a600ffd5, #ff0080d0, #00f7ffcd, #00ff00cc, #0000ffc7, #8000ffc9, #ff00ffd1);
+  background: linear-gradient(60deg, #a600ffd5, #ff0080d0, #00f7ffcd, #78fe9ecc, #0000ffc7, #8000ffc9, #ff00ffd1);
   background-size: 150% 150%;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 15px; /* Adjust the radius to your preference */
@@ -101,6 +101,7 @@
 
 /* Styles for the horizontal grid container */
 .horizontal-grid-container {
+  margin-top: 50px;
   display: flex; /* This will create a horizontal layout */
   justify-content: center; /* This will center the items horizontally */
   align-items: center; /* This will center the items vertically */
@@ -110,6 +111,7 @@
 
 
 .rounded-button {
+  margin-top: 20px;
   display: inline-block; /* Makes the link behave like a block, enabling width and height */
   border: 2px solid #ffffff; /* Replace with the desired border color */
   border-radius: 20px; /* Adjust for the desired roundness of the corners */
