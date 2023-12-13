@@ -89,6 +89,7 @@ function App() {
           </div>
         </a>
       </header>
+      
       <input type="file" onChange={handleFileUpload} />
       <button onClick={uploadPhotoToAzure}></button>
       <button onClick={sendJsonToAzure2} disabled={!jsonResponse}></button>
