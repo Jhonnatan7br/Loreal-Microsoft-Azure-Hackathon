@@ -17,7 +17,7 @@ import { uploadToAzure, analyzeWithAzure2 } from './Azure';
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [jsonResponse, setJsonResponse] = useState(null);
-  const [textResponse, setTextResponse] = useState('List of posible products for you');
+  const [textResponse, setTextResponse] = useState('Given the "High Contrast" indication of 58.8%, if you have highlights or balayage, you could consider LOréal color-protecting products to maintain the vibrancy and contrast in your hair.');
 
   const handleFileUpload = event => {
     setSelectedFile(event.target.files[0]);
