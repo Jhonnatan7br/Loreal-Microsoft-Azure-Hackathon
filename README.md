@@ -2,13 +2,13 @@
 
 ![image](https://github.com/Jhonnatan7br/Loreal-Hackathon/assets/104907786/5214681c-bdf4-4d4c-94e9-e13b0d6806b7)
 
-Prototype Demonstration
+## Prototype Demonstration
 https://www.youtube.com/watch?v=d000qW6XFpc&t=3s
 
-References:
-
-Solution and Commercial Value:
+## Solution and Commercial Value:
 https://youtu.be/c9yfrzjqt08?si=UBfAGFYVntvVfTWQ
+
+## References:
 
 L'Oréal Financial Statements 2022 Anual Report
 https://www.loreal-finance.com/eng/annual-report
