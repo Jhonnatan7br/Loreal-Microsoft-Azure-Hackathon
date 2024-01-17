@@ -1,4 +1,4 @@
-Integrating Azure AI custom vision and GPT4 models in a prototype to create a business model for L'Oreal
+# Integrating Azure AI custom vision and GPT4 models in a prototype to create a business model for L'Oreal
 
 ![image](https://github.com/Jhonnatan7br/Loreal-Hackathon/assets/104907786/5214681c-bdf4-4d4c-94e9-e13b0d6806b7)
 
