@@ -25,7 +25,7 @@ https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic
 The value of getting personalization right—or wrong—is multiplying
 https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying
 
-Regarding Azure AI needed documentation and requirements
+## Regarding Azure AI needed documentation and requirements
 
 Azure AI Vision
 https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/
