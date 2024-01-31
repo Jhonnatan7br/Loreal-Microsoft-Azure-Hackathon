@@ -24,14 +24,14 @@ https://www.loreal-finance.com/en/annual-report-2022/professional-products/
 Beauty augmented by technology L'Oréal 2022 Anual Report
 https://www.loreal-finance.com/en/annual-report-2022/beauty-augmented-by-technology/
 
->[!NOTE]
-> The economic value of the project was obtained taking into account financial statements of L'Oréal on the specific division of "Professionals" and possible impact that implemantation would have regarding McKinsey studies
-
 Economic Potencial of GenAI by McKinsey
 https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#introduction 
 
 The value of getting personalization right—or wrong—is multiplying
 https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying
+
+>[!NOTE]
+> The economic value of the project was obtained taking into account financial statements of L'Oréal on the specific division of "Professionals" and possible impact that implemantation would have regarding McKinsey studies
 
 ## Regarding Azure AI needed documentation and requirements
 
