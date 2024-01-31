@@ -4,6 +4,9 @@
 
 ![image](https://github.com/Jhonnatan7br/Loreal-Hackathon/assets/104907786/5214681c-bdf4-4d4c-94e9-e13b0d6806b7)
 
+>[!IMPORTANT]
+> All the project was built using javascript and node.js, to run the app it is necessary with the command "npm run mon-app" 
+
 ## Prototype Demonstration
 https://www.youtube.com/watch?v=d000qW6XFpc&t=3s
 
@@ -21,7 +24,10 @@ https://www.loreal-finance.com/en/annual-report-2022/professional-products/
 Beauty augmented by technology L'Oréal 2022 Anual Report
 https://www.loreal-finance.com/en/annual-report-2022/beauty-augmented-by-technology/
 
-Economic Potencial of GenAI by Mckindsey
+>[!NOTE]
+> The economic value of the project was obtained taking into account financial statements of L'Oréal on the specific division of "Professionals" and possible impact that implemantation would have regarding McKinsey studies
+
+Economic Potencial of GenAI by McKinsey
 https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier#introduction 
 
 The value of getting personalization right—or wrong—is multiplying
